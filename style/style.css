@@ -44,7 +44,7 @@ header {
     display: block;
     margin: 0 auto 58px; 
     width: 1160px;
-    height: 410;
+    height: 410px;
     
 }
 
@@ -74,7 +74,7 @@ header {
     font-size: 16px;
     font-weight: bold;
     color: #FFFFFF;
-    font-family: Helvetica, sans-serif;
+    
     position: absolute;
     top: 28px; bottom: 136px; right: 40px; left: 40px;
 
@@ -101,3 +101,58 @@ header {
     padding: 0 251px 40px 0;
     vertical-align:top;
 }
+/*Happening Now Section*/
+
+.happening-grand {
+    width: 1160px;
+    height: 896px;
+    margin: 0 auto;
+}
+.happening-now-heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #202124;
+    margin-bottom:40px;
+}
+.hap-parent-left {
+    width: 760px;
+    height: 900px;
+    
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+.hap-parent-right {
+    width: 380px;
+    height: 900px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hap-image-left {
+    width: 760px;
+    height: 430px;
+
+}
+.hap-image-right {
+    width: 360px;
+    height: 210px;
+    
+    
+}
+.bridge-pic { 
+    margin-bottom: 40px;
+    position: relative;
+}
+.parrot {
+    margin-top: 102px;
+    margin-bottom: 102px;
+}
+.bridge-heading {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 194px; left: 172px; bottom: 220px; left: 308px;
+}
+
