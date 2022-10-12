@@ -29,7 +29,7 @@
     color: #FA6980;
     margin-right: 92px;
     margin-top: 18px;
-    margin-left: 20px;
+    margin-left:20px;
 }
 
 header {
@@ -43,7 +43,7 @@ header {
 .trending-grand {
     padding-top: 74px;
     display: block;
-    margin: 0 auto 58px;
+    margin: 0 auto; 
     width: 1160px;
     height: 410px;
 }
@@ -96,21 +96,36 @@ header {
     padding: 76px 40px 10px 40px;
 }
 
-.trending-text img {
-    padding: 0 10px 40px 40px;
-    vertical-align: top;
+.trending-text{
+    position: relative;
 }
+
+.trending-text img {
+    position:absolute;
+    left:40px;
+    
+}                          
 
 .trending-text span {
     color: #A6ADB4;
-    font-size: 10px;
+    font-size: 13px;
     font-family: 'Roboto';
-    padding: 0 251px 40px 0;
-    vertical-align: top;
+    padding-top:3px;
+    position:absolute;
+    left:65px;
+    
 }
+
+
+
 /*Happening Now Section*/
 
 .happening-grand {
+    position:absolute;  
+    top:543px;
+    left: 0;
+    right: 0;
+    bottom: 0;
     width: 1160px;
     height: 896px;
     margin: 0 auto;
